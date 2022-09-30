@@ -51,13 +51,7 @@ return packer.startup(function(use)
   }
 
   -- File manager
-  use {
-    'kyazdani42/nvim-tree.lua',
-    requires = {
-      'kyazdani42/nvim-web-devicons',
-    },
-    tag = 'nightly',
-  }
+  use 'kyazdani42/nvim-tree.lua'
 
   use 'nvim-telescope/telescope.nvim'
   use 'tpope/vim-surround'

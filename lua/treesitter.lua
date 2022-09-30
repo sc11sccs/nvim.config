@@ -1,10 +1,4 @@
-local treesitter_ok, treesitter = pcall(require, 'nvim-treesitter.configs')
-if not treesitter_ok then
-  vim.notify('Treesitter is not found')
-  return
-end
-
-treesitter.setup {
+require('nvim-treesitter.configs').setup {
   highlight = {
     enable = true,
   },

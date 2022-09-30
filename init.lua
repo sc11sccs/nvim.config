@@ -2,6 +2,7 @@ require 'options'
 require 'keymaps'
 require 'plugins'
 require 'treesitter'
+require 'telescope_setup'
 
 vim.cmd 'colorscheme duskfox'
 
